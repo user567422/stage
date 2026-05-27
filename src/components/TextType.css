@@ -1,0 +1,13 @@
+/* TextType — typing animation */
+.tt {
+  display: inline;
+}
+
+.tt-cursor {
+  display: inline;
+  color: #e8b84a;        /* gold — matches the Nostalgie em gradient */
+  font-weight: 300;
+  margin-left: 2px;
+  user-select: none;
+  transition: opacity 0.08s ease;
+}
